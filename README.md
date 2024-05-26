@@ -49,7 +49,7 @@ Este proyecto es una aplicación de lista de tareas implementada en Python, desa
 Para ejecutar la aplicación, navega al directorio del proyecto y ejecuta el siguiente comando:
 
 ```bash
-python final_project_todo_app.py
+python todo_list_app.py
 ```
 
 Al iniciar, el programa te preguntará si deseas usar la interfaz web o la consola:
