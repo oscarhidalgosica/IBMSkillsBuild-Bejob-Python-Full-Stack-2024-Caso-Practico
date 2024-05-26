@@ -168,7 +168,7 @@ def main():
     if mode == 'web':
         print("Iniciando la aplicación web...")
         print("Puedes acceder a la aplicación en tu navegador en la siguiente URL: http://127.0.0.1:5000/")
-        threading.Thread(target=run_web_app).start()
+        app.run(debug=True)  # Corre directamente en el hilo principal
     elif mode == 'console':
         console_interaction()
     else:
