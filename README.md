@@ -38,10 +38,9 @@ Este proyecto es una aplicación de lista de tareas implementada en Python, desa
    ```
 
 2. **Instalar Dependencias**: 
-   Asegúrate de tener Python instalado. Luego, instala Flask y SQLite3, que son necesarios para ejecutar la aplicación. Utiliza los siguientes comandos:
+   Asegúrate de tener Python instalado. Luego, instala Flask, que es necesario para ejecutar la aplicación. Utiliza los siguientes comandos:
    ```bash
    pip install flask
-   pip install pysqlite3
    ```
 
 ## Uso
