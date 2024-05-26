@@ -1,5 +1,3 @@
-# IBMSkillsBuild-Bejob-Python-Full-Stack-2024-Caso-Practico
-Programa en Python utilizando Programación Orientada a Objetos que gestiona una lista de tareas pendientes. Caso Práctico final del Curso Python Full Stack 2024 de IBM SkillsBuild por Bejob
 
 # Curso Python Full Stack Abril-Mayo 2024
 ### IBM SkillsBuild, de la mano de Bejob
@@ -33,7 +31,49 @@ Este proyecto es una aplicación de lista de tareas implementada en Python, desa
 ## Instalación y Configuración
 
 1. **Clonar el Repositorio**: 
+   Clona el repositorio usando el siguiente comando en tu terminal:
    ```bash
    git clone https://github.com/oscarhidalgosica/IBMSkillsBuild-Bejob-Python-Full-Stack-2024-Caso-Practico.git
    cd IBMSkillsBuild-Bejob-Python-Full-Stack-2024-Caso-Practico
+   ```
+
+2. **Instalar Dependencias**: 
+   Asegúrate de tener Python instalado. Luego, instala Flask y SQLite3, que son necesarios para ejecutar la aplicación. Utiliza los siguientes comandos:
+   ```bash
+   pip install flask
+   pip install pysqlite3
+   ```
+
+## Uso
+
+Para ejecutar la aplicación, navega al directorio del proyecto y ejecuta el siguiente comando:
+
+```bash
+python final_project_todo_app.py
+```
+
+Al iniciar, el programa te preguntará si deseas usar la interfaz web o la consola:
+
+- **Consola**: Selecciona `console` para interactuar con la aplicación a través de la línea de comandos.
+- **Web**: Selecciona `web` para lanzar un servidor web local y acceder a la aplicación a través de un navegador. Una vez seleccionado, se abrirá automáticamente la página `http://127.0.0.1:5000/` en tu navegador predeterminado.
+
+## Acceso desde la Web
+
+Si eliges el modo web, puedes acceder a la interfaz de la aplicación ingresando a la siguiente URL desde cualquier navegador web:
+
+```
+http://127.0.0.1:5000/
+```
+
+La interfaz web permite agregar, completar y eliminar tareas usando una interfaz gráfica sencilla y fácil de usar.
+
+## Soporte
+
+Este es un ejercicio de caso práctico del curso Python Full Stack Abril-Mayo 2024 y el repositorio no será mantenido fuera de su finalidad, sin embargo puedes contactarme libremente a través de LinkedIn o enviar un issue en el repositorio de GitHub.
+
+## Autor
+
+Oscar Hidalgo Gutiérrez  
+- **Perfil de LinkedIn**: [Visita mi LinkedIn](https://www.linkedin.com/in/oscarhidalgo/)
+
 
